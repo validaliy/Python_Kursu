@@ -10,16 +10,16 @@
     Müşteri adres bilgisi   
     Müşteri yaşı 
 """
-musteriAdi = 'Ali'
-musteriSoyad = 'Yılmaz'
+musteriAdi = 'İbrahim'
+musteriSoyad = 'Beylem'
 musteriAdSoyad = musteriAdi + ' ' + musteriSoyad
 print(musteriAdSoyad)
 musteriCinsiyet = True # Erkek
 musteriTcKimlik = '13165465445'
-musteriDogumYili = 1989
-musteriAdresi = 'İstanbul Kadıköy'
-musteriYasi = 2019 - musteriDogumYili 
-
+musteriDogumYili = 1994
+musteriAdresi = 'Şanlıurfa Kadıköy'
+musteriYasi = 2020 - musteriDogumYili
+print(musteriYasi)
 """
     2- Aşağıdaki siparişlerin toplam bilgisini hesaplayınız.
     

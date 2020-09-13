@@ -9,13 +9,13 @@ print(maasAhmet - (maasAhmet * vergi))
 
 # rakam ile başlayamaz
 
-number1 = 10
+number1 = 10 # 1number hatalı olur
 print(number1)
 
 number1 = 20
 print(number1)
 
-number1 += 30
+number1 += 30 # number1 ile 30 toplar
 print(number1)
 
 # Büyük küçük harf duyarlılığı
@@ -38,9 +38,10 @@ isStudent = True   # bool
 
 # x, y, name, isStudent = (1, 2.3, "Çınar", True)
 
-a = '10'
-b = '20'
-print(a+b) # => 1020
+a = '10'      #String
+b = '20'      #String
+print(a+b) # => 10 ve 20 stringini birleştirdi: 1020
+print(int(a)+int(b))
 
 firstName = "Sadık"
 lastName = " Turan"
